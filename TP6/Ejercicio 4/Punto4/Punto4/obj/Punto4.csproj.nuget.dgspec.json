@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\giuli\\Documents\\Facultad\\Taller1\\TP6\\tpn6-Chicabytes\\TP6\\Ejercicio 2\\Tp6-Punto2\\Tp6-Punto2\\Tp6-Punto2.csproj": {}
+    "C:\\Users\\giuli\\Documents\\Facultad\\Taller1\\TP6\\tpn6-Chicabytes\\TP6\\Ejercicio 4\\Punto4\\Punto4\\Punto4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\giuli\\Documents\\Facultad\\Taller1\\TP6\\tpn6-Chicabytes\\TP6\\Ejercicio 2\\Tp6-Punto2\\Tp6-Punto2\\Tp6-Punto2.csproj": {
+    "C:\\Users\\giuli\\Documents\\Facultad\\Taller1\\TP6\\tpn6-Chicabytes\\TP6\\Ejercicio 4\\Punto4\\Punto4\\Punto4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\giuli\\Documents\\Facultad\\Taller1\\TP6\\tpn6-Chicabytes\\TP6\\Ejercicio 2\\Tp6-Punto2\\Tp6-Punto2\\Tp6-Punto2.csproj",
-        "projectName": "Tp6-Punto2",
-        "projectPath": "C:\\Users\\giuli\\Documents\\Facultad\\Taller1\\TP6\\tpn6-Chicabytes\\TP6\\Ejercicio 2\\Tp6-Punto2\\Tp6-Punto2\\Tp6-Punto2.csproj",
+        "projectUniqueName": "C:\\Users\\giuli\\Documents\\Facultad\\Taller1\\TP6\\tpn6-Chicabytes\\TP6\\Ejercicio 4\\Punto4\\Punto4\\Punto4.csproj",
+        "projectName": "Punto4",
+        "projectPath": "C:\\Users\\giuli\\Documents\\Facultad\\Taller1\\TP6\\tpn6-Chicabytes\\TP6\\Ejercicio 4\\Punto4\\Punto4\\Punto4.csproj",
         "packagesPath": "C:\\Users\\giuli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\giuli\\Documents\\Facultad\\Taller1\\TP6\\tpn6-Chicabytes\\TP6\\Ejercicio 2\\Tp6-Punto2\\Tp6-Punto2\\obj\\",
+        "outputPath": "C:\\Users\\giuli\\Documents\\Facultad\\Taller1\\TP6\\tpn6-Chicabytes\\TP6\\Ejercicio 4\\Punto4\\Punto4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\giuli\\AppData\\Roaming\\NuGet\\NuGet.Config",
