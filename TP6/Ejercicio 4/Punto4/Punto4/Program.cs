@@ -71,6 +71,67 @@ namespace Punto4
 
             Console.WriteLine(minus);
 
+            //Comparar
+
+            Console.WriteLine("Ingrese una cadena a comparar: ");
+            string cad3 = Console.ReadLine();
+
+            int Comp = cadena.CompareTo(cad3);
+
+            if(Comp == 0)
+            {
+                Console.WriteLine("Las cadenas son iguales");
+            }
+            else
+            {
+                Console.WriteLine("Las cadenas no son iguales");
+            }
+
+            //Separar
+            Console.WriteLine("Ingrese una frase separada por '/': ");
+            string cad4 = Console.ReadLine();
+            string[] sepadado = cad4.Split('/');
+            foreach (string palabra in sepadado)
+            {
+                Console.WriteLine(palabra);
+            }
+
+            //Calcular
+
+            Console.WriteLine("Ingrese una operacion: ");
+            string operacion = Console.ReadLine();
+            int opera = 0;
+            if (operacion.Contains('+'))
+            {
+                string[] ArreOperacion = operacion.Split('+');
+                opera = Calculadora.suma(Convert.ToInt32(ArreOperacion[0]), Convert.ToInt32(ArreOperacion[1]));
+                Console.WriteLine("El resultado es " + Convert.ToString(opera));
+            }
+            else if (operacion.Contains('-'))
+            {
+                string[] ArreOperacion = operacion.Split('+');
+                opera = Calculadora.resta(Convert.ToInt32(ArreOperacion[0]), Convert.ToInt32(ArreOperacion[1]));
+                Console.WriteLine("El resultado es " + Convert.ToString(opera));
+            }
+            else if (operacion.Contains('*'))
+            {
+                string[] ArreOperacion = operacion.Split('+');
+                opera = Calculadora.multiplic(Convert.ToInt32(ArreOperacion[0]), Convert.ToInt32(ArreOperacion[1]));
+                Console.WriteLine("El resultado es " + Convert.ToString(opera));
+            }
+            else if (operacion.Contains('/'))
+            {
+                string[] ArreOperacion = operacion.Split('+');
+                if(ArreOperacion[2] != "0")
+                {
+                    opera = Calculadora.div(Convert.ToInt32(ArreOperacion[0]), Convert.ToInt32(ArreOperacion[1]));
+                    Console.WriteLine("El resultado es " + Convert.ToString(opera));
+                }
+                else
+                {
+                    Console.WriteLine("No se pudo realizar la operacion");
+                }
+            }
         }
     }
 }
